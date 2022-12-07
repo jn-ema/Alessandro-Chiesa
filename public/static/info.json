@@ -1,0 +1,20 @@
+{
+  "name": "Alessandro Chiesa",
+  "address": "University of California, Berkeley",
+  "bio": "",
+  "mainSkill": "Faculty Member",
+  "img": "https://people.eecs.berkeley.edu/~alexch/assets/img/alessandro-chiesa-1.jpg",
+
+
+  "social": [
+    { "name": "facebook", "icon": "icon-facebook-1", "url": "#" },
+    { "name": "twitter", "icon": "icon-twitter-1", "url": "#" },
+    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "#" },
+    { "name": "behance", "icon": "icon-behance", "url": "#" }
+  ],
+  "contact": {
+    "address": "University Of California, Berkeley",
+    "email": "\nalexch@EECS.berkeley.edu",
+    "phn": "+16156823765"
+  }
+}
