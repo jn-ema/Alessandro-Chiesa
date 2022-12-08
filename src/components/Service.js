@@ -35,11 +35,17 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Services</span>
-            <h3>What I Do for Clients</h3>
-            <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            <span>Short Bio</span>
+            <h3>Alessandro Chiesa</h3>
+            <p align="left">
+              I joined <a href="https://www.epfl.ch/en/"> EPFL'</a>s faculty in the summer of 2021, and <a href="https://www.berkeley.edu/">UC Berkeley'</a>s faculty in the summer of 2015.<br></br>
+              Prior to that, I spent one year as a postdoctoral researcher at <a href="https://ethz.ch/de.html">ETH Zürich</a>; my host was Prof. <a href="url">Thomas Holenstein</a>.<br></br>
+              I earned my Ph.D. in the <a href="https://toc.csail.mit.edu/l">Theory of Computation</a> group in <a href="https://www.csail.mit.edu/">CSAIL</a> at <a href="https://people.eecs.berkeley.edu/~alexch/www.mit.edu">MIT</a>; my doctoral thesis advisor was Prof. <a href="http://people.csail.mit.edu/silvio/">Silvio Micali</a>.<br></br>
+              I earned my M.Eng. in the same group; my master's thesis advisors were Prof. <a href="http://www.cs.tau.ac.il/~tromer/">Eran Tromer</a> and Prof. <a href="url">Ron Rivest</a>.<br></br>
+              I earned my S.B. in <a href="https://math.mit.edu/">Mathematics</a> and my S.B. in <a href="https://www.eecs.mit.edu/">Computer Science</a> at MIT; outside of classes and labs, I rowed for the heavyweight varsity <a href="mitathletics.com/sports/m-crewhvy/">crew team</a> at MIT.<br></br>
+              A list of my old coursework while at MIT can be found <a href="https://people.eecs.berkeley.edu/~alexch/coursework.html">here</a>.<br></br>
+              Before coming to MIT, I lived in <a href="https://www.comune.varese.it/hh/index.php">Varese</a>, Italy, where I was born in 1987. While in Italy, I attended the <a href="https://www.eurscva.eu/">European School of Varese</a> from kindergarten through high school; this school is part of the system of <a href="www.eursc.eu">European Schools</a>, which awards students the European Baccalaureate.<br></br>
+              I enjoy many outdoor sports, including biking, climbing, mountaineering, and running.
             </p>
           </div>
           <div className="service_list">

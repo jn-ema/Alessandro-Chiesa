@@ -13,19 +13,22 @@ const Header = ({ logo }) => {
           <div className="menu">
             <ul className="anchor_nav">
               <li className="current">
-                <a href="#home">Home</a>
+               <a href="#home">Home</a>
+              </li>
+                <li>
+                    <a href="#about">Research group</a>
+                </li>
+              <li>
+                <a href="#about">About Me</a>
               </li>
               <li>
-                <a href="#about">About</a>
+                <a href="#portfolio">Teaching</a>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#service">Short Bio</a>
               </li>
               <li>
-                <a href="#service">Service</a>
-              </li>
-              <li>
-                <a href="#blog">Blog</a>
+                <a href="#blog">Publications</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
