@@ -43,9 +43,9 @@ const Index = () => {
       {/* SERVICES */}
       <Service dark />
       {/* /SERVICES */}
-      {/* TESTIMONIALS */}
+
       <Testimonial />
-      {/* /TESTIMONIALS */}
+
       {/* PARTNERS */}
       <Partners dark />
       {/* /PARTNERS */}

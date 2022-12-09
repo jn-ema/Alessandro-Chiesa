@@ -16,28 +16,20 @@ const Header = ({ logo }) => {
                <a href="#home">Home</a>
               </li>
                 <li>
-                    <a href="#about">Research group</a>
+                    <a href="#about">About Me</a>
                 </li>
+
               <li>
-                <a href="#about">About Me</a>
+                <a href="#portfolio">Research & Teaching</a>
               </li>
-              <li>
-                <a href="#portfolio">Teaching</a>
-              </li>
+
               <li>
                 <a href="#service">Short Bio</a>
               </li>
               <li>
-                <a href="#blog">Publications</a>
-              </li>
-              <li>
                 <a href="#contact">Contact</a>
               </li>
-              <li className="download_cv">
-                <a href="img/cv/1.jpg" download="">
-                  <span>Download CV</span>
-                </a>
-              </li>
+
             </ul>
           </div>
         </div>

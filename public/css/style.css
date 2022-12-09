@@ -14,7 +14,7 @@
 07) DIZME PORTFOLIO
 08) DIZME SKILLS
 09) DIZME SERVICES
-10) DIZME TESTIMONIALS
+
 11) DIZME PARTNERS
 12) DIZME NEWS
 13) DIZME SUBSCRIBE
@@ -1736,250 +1736,49 @@ h6 {
 }
 
 /*---------------------------------------------------*/
-/*	10) DIZME TESTIMONIALS
+/*
 /*---------------------------------------------------*/
 
-.dizme_tm_testimonials {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  margin-bottom: 187px;
-  position: relative;
-}
-.dizme_tm_testimonials .list_wrapper {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  position: relative;
-  margin-top: 80px;
-}
-.dizme_tm_testimonials .in {
-  width: 100%;
-  max-width: 900px;
-  text-align: center;
-  margin: 0px auto;
-}
-.dizme_tm_testimonials .total {
-  width: 100%;
-  height: auto;
-  clear: both;
-  float: left;
-  position: relative;
-}
-.dizme_tm_testimonials ul {
-  margin: 0px;
-  list-style-type: none;
-}
-.dizme_tm_testimonials ul li {
-  margin: 0px;
-}
-.dizme_tm_testimonials .icon {
-  margin-bottom: 35px;
-}
-.dizme_tm_testimonials .icon .svg {
-  width: 65px;
-  height: 65px;
-  color: #f75023;
-}
-.dizme_tm_testimonials .text {
-  margin-bottom: 51px;
-}
-.dizme_tm_testimonials .text p {
-  font-size: 30px;
-  font-style: italic;
-  line-height: 1.6;
-}
-.dizme_tm_testimonials .short {
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.dizme_tm_testimonials .short .image {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  border-radius: 100%;
-}
-.dizme_tm_testimonials .short .image .main {
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-}
-.dizme_tm_testimonials .detail {
-  text-align: left;
-  padding-left: 25px;
-}
-.dizme_tm_testimonials .detail h3 {
-  font-size: 24px;
-}
-.dizme_tm_testimonials .detail span {
-  font-size: 16px;
-}
-.dizme_tm_testimonials .owl-theme .owl-dots .owl-dot span {
-  width: 15px;
-  height: 15px;
-  background-color: #f75023;
-  position: relative;
-  margin: 0px 12px;
-}
-.dizme_tm_testimonials .owl-theme .owl-dots .owl-dot span:before {
-  position: absolute;
-  content: "";
-  top: 1px;
-  bottom: 1px;
-  left: 1px;
-  right: 1px;
-  border-radius: 100%;
-  border: 2px solid #ffb324;
-  z-index: -1;
 
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-.dizme_tm_testimonials .owl-theme .owl-dots .owl-dot.active span:before {
-  top: -5px;
-  bottom: -5px;
-  left: -5px;
-  right: -5px;
-}
-.dizme_tm_testimonials .owl-theme .owl-nav.disabled + .owl-dots {
-  top: -5px;
-  bottom: -5px;
-  left: -5px;
-  right: -5px;
-  margin-top: 64px;
-}
-.dizme_tm_testimonials .brush_1 {
-  position: absolute;
-  top: -120px;
-  right: 20px;
-}
-.dizme_tm_testimonials .left_details {
-  position: absolute;
-  top: 50%;
-  left: 45px;
-  transform: translateY(-50%);
-  margin-top: -10px;
-}
-.dizme_tm_testimonials .left_details .det_image {
-  position: absolute;
-  border-radius: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.dizme_tm_testimonials .left_details .det_image.one {
-  width: 55px;
-  height: 55px;
-}
-.dizme_tm_testimonials .left_details .det_image.two {
-  width: 70px;
-  height: 70px;
-  top: -217px;
-  left: 133px;
-}
-.dizme_tm_testimonials .left_details .det_image.three {
-  width: 60px;
-  height: 60px;
-  top: -60px;
-  left: 255px;
-}
-.dizme_tm_testimonials .left_details .det_image.four {
-  width: 35px;
-  height: 35px;
-  left: 260px;
-  bottom: -153px;
-}
-.dizme_tm_testimonials .left_details .circle {
-  position: absolute;
-  width: 18px;
-  height: 18px;
-  display: inline-block;
-  border-radius: 100%;
-}
-.dizme_tm_testimonials .left_details .circle.green {
-  background-color: #1cbe59;
-  top: -108px;
-  left: 55px;
-}
-.dizme_tm_testimonials .left_details .circle.yellow {
-  background-color: #f0c45c;
-  left: 148px;
-  bottom: -42px;
-}
-.dizme_tm_testimonials .left_details .border {
-  border: 4px solid #6e50f0;
-  width: 30px;
-  height: 30px;
-  top: -152px;
-  left: 300px;
-}
-.dizme_tm_testimonials .right_details {
-  position: absolute;
-  top: 50%;
-  right: 85px;
-  transform: translateY(-50%);
-  margin-top: -50px;
-}
-.dizme_tm_testimonials .right_details .det_image {
-  position: absolute;
-  border-radius: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.dizme_tm_testimonials .right_details .det_image.one {
-  width: 49px;
-  height: 49px;
-}
-.dizme_tm_testimonials .right_details .det_image.two {
-  width: 79px;
-  height: 79px;
-  bottom: -100px;
-  right: 225px;
-}
-.dizme_tm_testimonials .right_details .det_image.three {
-  width: 58px;
-  height: 58px;
-  top: -162px;
-  right: 50px;
-}
-.dizme_tm_testimonials .right_details .circle {
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  display: inline-block;
-  border-radius: 100%;
-}
-.dizme_tm_testimonials .right_details .circle.yellow {
-  background-color: #f0c45c;
-  top: -173px;
-  right: 263px;
-}
-.dizme_tm_testimonials .right_details .circle.purple {
-  background-color: #8067f0;
-  bottom: -180px;
-  right: 38px;
-}
-.dizme_tm_testimonials .right_details .border {
-  border: 6px solid #1cbe59;
-  width: 54px;
-  height: 54px;
-  right: 109px;
-  top: -13px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---------------------------------------------------*/
 /*	11) DIZME PARTNERS
@@ -2962,37 +2761,16 @@ input[type="number"] {
   .dizme_tm_services .service_list .price span {
     font-size: 20px;
   }
-  .dizme_tm_testimonials .in {
-    max-width: 650px;
-  }
-  .dizme_tm_testimonials .text p {
-    font-size: 19px;
-  }
-  .dizme_tm_testimonials .detail h3 {
-    font-size: 22px;
-  }
-  .dizme_tm_testimonials .left_details .det_image.two {
-    left: 120px;
-  }
-  .dizme_tm_testimonials .left_details .det_image.three {
-    left: 200px;
-  }
-  .dizme_tm_testimonials .left_details .border {
-    left: 240px;
-  }
-  .dizme_tm_testimonials .right_details .det_image.two {
-    right: 170px;
-  }
-  .dizme_tm_testimonials .right_details .border {
-    right: 68px;
-  }
-  .dizme_tm_testimonials .right_details .circle.yellow {
-    right: 210px;
-  }
-  .dizme_tm_testimonials .right_details .circle.yellow {
-    width: 55px;
-    height: 55px;
-  }
+
+
+
+
+
+
+
+
+
+
   .dizme_tm_about .brush_1 {
     left: 40px;
   }
@@ -3257,25 +3035,12 @@ input[type="number"] {
     width: 100%;
     padding-left: 0px;
   }
-  .dizme_tm_testimonials .left_details {
-    display: none;
-  }
-  .dizme_tm_testimonials .right_details {
-    display: none;
-  }
-  .dizme_tm_testimonials .brush_1 {
-    display: none;
-  }
-  .dizme_tm_testimonials .icon .svg {
-    width: 50px;
-    height: 50px;
-  }
-  .dizme_tm_testimonials .text p {
-    font-size: 20px;
-  }
-  .dizme_tm_testimonials .detail h3 {
-    font-size: 21px;
-  }
+
+
+
+
+
+
   .dizme_tm_partners .brush_1 {
     display: none;
   }
@@ -3458,18 +3223,10 @@ input[type="number"] {
     padding-top: 120px;
     margin-bottom: 98px;
   }
-  .dizme_tm_testimonials .list_wrapper {
-    margin-top: 65px;
-  }
-  .dizme_tm_testimonials .in {
-    padding: 0px 20px;
-  }
-  .dizme_tm_testimonials {
-    margin-bottom: 127px;
-  }
-  .dizme_tm_testimonials .owl-theme .owl-nav.disabled + .owl-dots {
-    margin-top: 50px;
-  }
+
+
+
+
   .dizme_tm_news {
     padding-top: 120px;
     margin-bottom: 100px;

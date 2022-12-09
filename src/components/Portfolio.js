@@ -92,6 +92,9 @@ const portfolio = () => {
                       <li><a href="https://people.eecs.berkeley.edu/~npward/index.html">Nicholas Ward</a> (MS Student → Mir)</li>
                       <li><a href="https://twitter.com/1howardwu">Howard Wu</a> (MS Student → Aleo)</li>
                   </ul>
+                <br></br>
+                <br></br>
+                <br></br>
             <span>Teaching</span>
             <p>
               1.F2022, <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS459-F2022.html">CS459: Foundations of Probabilistic Proofs</a><br></br>
@@ -109,6 +112,9 @@ const portfolio = () => {
               13.F2016, <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS294-F2016.html">CS294: Property Testing</a><br></br>
               14.S2016, <a href="https://inst.eecs.berkeley.edu//~cs170/sp16/">CS170: Efficient Algorithms and Intractable Problems</a><br></br>
               15.F2015, <a href="https://people.eecs.berkeley.edu/~alexch/classes/CS276-F2015.html">CS276:Cryptography</a><br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <span>Activities</span><br></br>
               1.Workshop on <a href="https://bertinoro-proofs.github.io/"> Efficient Probabilistic Proofs</a> @ Bertinoro, Italy (July 2022) <br></br>
               2.MSRI Summer School on <a href="https://www.msri.org/summer_schools/931">Foundations and Frontiers of Probabilistic Proofs</a> (July 2021) <br></br>
@@ -118,6 +124,9 @@ const portfolio = () => {
               6.Workshop on<a href="https://people.eecs.berkeley.edu/~alexch/pcpip-stoc17.html">Probabilistically Checkable and Interactive Proofs</a>@ STOC 2017 Theory Fest <br></br>
               7.<a href="http://itcs-conf.org/">ITCS 2017</a> (8th Innovations in Theoretical Computer Science Conference) <br></br>
               8.<a href="https://bacrypto.github.io/">Bay Area Cryto Day</a><br></br>
+              <br></br>
+              <br></br>
+              <br></br>
               <span>Program Committees</span><br></br>
               1.<a href="https://www.iacr.org/conferences/">CRYPTO 2019</a> (39th International Cryptology Conference) <br></br>
               2.<a href="https://www.ieee-security.org/TC/SP2019/">S&P 2019</a> (40th IEEE Symposium on Security and Privacy) <br></br>
@@ -136,7 +145,7 @@ const portfolio = () => {
                   className={`c-pointer ${activeBtn("*")}`}
                   onClick={handleFilterKeyChange("*")}
                 >
-                  All
+
                 </a>
               </li>
               <li>
@@ -144,7 +153,7 @@ const portfolio = () => {
                   className={`c-pointer ${activeBtn("youtube")}`}
                   onClick={handleFilterKeyChange("youtube")}
                 >
-                  Youtube
+
                 </a>
               </li>
               <li>
@@ -152,7 +161,7 @@ const portfolio = () => {
                   className={`c-pointer ${activeBtn("vimeo")}`}
                   onClick={handleFilterKeyChange("vimeo")}
                 >
-                  Vimeo
+
                 </a>
               </li>
               <li>
@@ -160,7 +169,7 @@ const portfolio = () => {
                   className={`c-pointer ${activeBtn("soundcloud")}`}
                   onClick={handleFilterKeyChange("soundcloud")}
                 >
-                  Soundcloud
+
                 </a>
               </li>
               <li>
@@ -168,7 +177,6 @@ const portfolio = () => {
                   className={`c-pointer ${activeBtn("popup")}`}
                   onClick={handleFilterKeyChange("popup")}
                 >
-                  Popup
                 </a>
               </li>
               <li>
@@ -176,7 +184,7 @@ const portfolio = () => {
                   className={`c-pointer  ${activeBtn("detail")}`}
                   onClick={handleFilterKeyChange("detail")}
                 >
-                  Detail
+
                 </a>
               </li>
             </ul>
